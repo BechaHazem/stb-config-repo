@@ -17,3 +17,5 @@ spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
 eureka.instance.hostname=serviceregistry
 eureka.client.service-url.defaultZone=http://localhost:8761/eureka/
 eureka.client.register-with-eureka=true
+
+spring.profiles.active=dev
